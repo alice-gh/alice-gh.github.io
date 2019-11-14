@@ -17,4 +17,6 @@ jobs:
         echo test, and deploy your project.
         ls -la
         echo $PATH
+        export $PATH=$PATH:~/
         node hello.js
+        echo $PATH
